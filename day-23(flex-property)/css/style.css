@@ -21,8 +21,93 @@
     background-color: aquamarine;
 }
 
+.box-6{
+    margin: 0px auto;
+    width: 1500px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.box-2{
+    margin: 0px auto;
+    width: 1500px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.box-9{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-8{
+    margin: 0px auto;
+    width: 1500px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.box-7{
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
 .box div{
     width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-4{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-5{
+    width: 100px;
+    height: 130px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-3{
+    width: 95px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-2 div{
+    width: 94px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+
+.box-8 div{
+    width: 250px;
     height: 100px;
     background-color: brown;
     border: 2px solid black;
@@ -56,4 +141,119 @@
 
 .fw-w-r{
     flex-wrap: wrap-reverse;
+}
+
+.jc-s{
+    justify-content: flex-start;
+}
+
+.jc-e{
+    justify-content: flex-end;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.ac-fs{
+    align-content: flex-start;
+}
+
+.ac-fe{
+    align-content: flex-end;
+}
+
+.ac-c{
+    align-content: center;
+}
+
+.ac-sa{
+    align-content: space-around;
+}
+
+.ac-se{
+    align-content: space-evenly;
+}
+
+.ac-sb{
+    align-content: space-between;
+}
+
+.ai-fs{
+    align-items: flex-start;
+}
+
+.ai-fe{
+    align-items: flex-end;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.ai-b{
+    align-items: baseline;
+}
+
+.ai-s{
+    align-items: stretch;
+}
+
+.fs-0{
+    flex-shrink: 0;
+}
+.fs-1{
+    flex-shrink: 1;
+}
+.fs-2{
+    flex-shrink: 2;
+}
+
+.fg-0{
+    flex-grow: 0;
+}
+.fg-1{
+    flex-grow: 1;
+}
+.fg-2{
+    flex-grow: 2;
+}
+
+.o--1{
+    order: -1;
+}
+.o-0{
+    order: 0;
+}
+.o-1{
+    order: 1;
+}
+
+
+.as-s{
+    align-self: flex-start;
+}
+.as-e{
+    align-self: flex-end;
+}
+.as-c{
+    align-self: center;
+}
+.as-b{
+    align-self: baseline;
+}
+.as-s{
+    align-self: stretch;
 }
